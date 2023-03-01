@@ -39,3 +39,7 @@ The Steps that I did on this python was to:
 I ended this section identifying that there were 337 rows that did not have actors on them. I did not remove these as they could possibly be useful in my analysis later, and could always be removed with excel (or Python) at a later date.
 
 I also contemplated removing the rows where the Rating, Runtime and Votes were NaN. However, that would remove nearly a third of the data and so decided to keep it as i could possibly use it later.
+
+*PART 2 - DATA CLEANING USING EXCEL*
+
+I saved the dataframe as a new csv file - df3.to_csv('Visualising_Netflix.csv') - and then downloaded it to my computer so that i could work on excel.
