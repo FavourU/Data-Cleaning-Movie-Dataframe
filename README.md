@@ -1,4 +1,4 @@
-# Niyo-Final-Project
+# Data Cleaning Movie Dataframe With Python and Excel
 Dataset analysing Netflix Movies and TV shows scrapped from IMDB.
 This data frame had 9 columns ('MOVIES', 'YEAR', 'GENRE', 'RATING', 'ONE-LINE', 'STARS', 'VOTES', 'RunTime', 'Gross') and 9999 rows.
 
