@@ -1,5 +1,5 @@
 # Niyo-Final-Project
-Final project dataset, analysing Netflix Movies and TV shows scrapped from IMDB.
+Dataset analysing Netflix Movies and TV shows scrapped from IMDB.
 This data frame had 9 columns ('MOVIES', 'YEAR', 'GENRE', 'RATING', 'ONE-LINE', 'STARS', 'VOTES', 'RunTime', 'Gross') and 9999 rows.
 
 *PART 1 - DATA CLEANING USING PYTHON* 
