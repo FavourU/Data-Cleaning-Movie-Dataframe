@@ -51,4 +51,13 @@ The steps i took here were:
 1. Removed the first column (as this was the index column, unneccessary on excel
 2. Adjusted the width of the cells
 3. Split the 'Genre' column using ',' delimeter
-4. Noticed that some 'Start Year' values were in roman numerals e.g. 'V' and so had to use the replace 
+4. Noticed that some 'Start Year' values were in roman numerals e.g. 'V'. When looking at Original data, some of the dates were cut out by the splicing (indexing) done in the previous python cleaning. SO i manually inputted the necessary data in, as Excel was not allowing em to directly copy and past.
+5. Split the STARS column into Actor and Director Using 1 as a delimeter
+6. Used Replace function to remove unnecessary words
+7. Noticed that some cells still had the word 'Directors:' in it, so removed that using the replace function
+8. Split the Actor/ Director Cells into multiple columns using ',' as a delimeter
+9. Renamed 'Movie' Column as "Name"
+
+At the end of this, Dataframe has 18 columns and 8174 rows
+
+Have decided not to use this dataframe for Project!
