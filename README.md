@@ -40,6 +40,15 @@ I ended this section identifying that there were 337 rows that did not have acto
 
 I also contemplated removing the rows where the Rating, Runtime and Votes were NaN. However, that would remove nearly a third of the data and so decided to keep it as i could possibly use it later.
 
+UPDATE: Went back to remove rows as they were disrupting Excel analysis.
+
 *PART 2 - DATA CLEANING USING EXCEL*
 
-I saved the dataframe as a new csv file - df3.to_csv('Visualising_Netflix.csv') - and then downloaded it to my computer so that i could work on excel.
+I saved the dataframe as a new csv file - df3.to_csv('Visualising_Netflix.csv') - and then downloaded it to my computer so that i could work on excel. I loaded it using PowerQuery, because it was a CSV file.
+
+The steps i took here were:
+
+1. Removed the first column (as this was the index column, unneccessary on excel
+2. Adjusted the width of the cells
+3. Split the 'Genre' column using ',' delimeter
+4. Noticed that some 'Start Year' values were in roman numerals e.g. 'V' and so had to use the replace 
