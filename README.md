@@ -8,7 +8,7 @@ Initial-Data-Cleaning-using-Python file
 
 I started Data cleaning with Python on Google colab and mainly used pandas to clean up the dataset.
 
-I imported the necessary dataframe and assigned it to a variable, df2. From initial analysis of the data, I noticed a few things:
+I imported the necessary dataframe (movies.csv) and assigned it to a variable, df2. From initial analysis of the data, I noticed a few things:
 
 1. Year dates aren't in the same format. Some have only one year. Will need to remove the brackets.
 
